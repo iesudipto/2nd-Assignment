@@ -10,3 +10,91 @@
   nav .button {
     display: none;
   }
+  nav .hamburger-menu {
+    display: block;
+  }
+  /* bANNER */
+
+  #banner {
+    padding: 40px 20px;
+    background-size: 100% 100%;
+  }
+
+  .img-circle {
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+    top: 20px;
+  }
+  .img-mic {
+    max-width: 80px;
+    max-height: 80px;
+    left: 75px;
+    top: 80px;
+  }
+  .banner-image .img-new {
+    position: absolute;
+    top: 0;
+    left: 110px;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }
+
+  .banner-content .banner-text h1 {
+    font-size: 40px;
+    margin-top: 44px;
+  }
+  .banner-content .banner-text p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+    max-width: 400px;
+  }
+
+  /* about section */
+  #about .about-container {
+    padding: 40px 20px;
+  }
+  .about-container .about-text {
+    margin-bottom: 40px;
+  }
+  .about-container .about-text h1 {
+    font-size: 32px;
+  }
+  .about-container .about-text p {
+    max-width: 450px;
+    margin-bottom: 0;
+  }
+  .about-container .about-text .p-one {
+    margin-bottom: 40px;
+  }
+
+  .about-container .about-rating {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .about-container .about-rating .rating h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  /* grid section */
+
+  #grid {
+    padding: 40px 20px;
+  }
+
+  #grid .grid-container h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
