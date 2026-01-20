@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 16px 20px;
+  }
+  nav .menu,
+  nav .button {
+    display: none;
+  }
